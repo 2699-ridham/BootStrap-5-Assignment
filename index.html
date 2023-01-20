@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="fluids">
+        <div class="navbar-container">
+            <nav class="rounded navbar navbar-expand bg-primary">
+                <div class="fluid-block w-100">
+                    <a class="navbar-brand assignments fs-1 text-white ms-3" href="#">Assignments
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav list d-block w-100">
+                            <li class="nav-item">
+                                <i class="fa-solid fa-house-chimney text-white"></i>
+                                <a class="nav-link active text-white d-inline-block" aria-current="page"
+                                    href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-solid fa-paintbrush text-white"></i>
+                                <a class="nav-link text-white d-inline-block" href="#">Design</a>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-solid fa-share text-white"></i>
+                                <a class="nav-link text-white d-inline-block" href="#">Share</a>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-regular fa-credit-card text-white"></i>
+                                <a class="nav-link text-white d-inline-block">Payments</a>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-solid fa-gear text-white"></i>
+                                <a class="nav-link text-white d-inline-block">Settings</a>
+                            </li>
+                            <li class="nav-item mt-xl-5">
+                                <i class="fa-sharp fa-solid fa-ticket text-white"></i>
+                                <a class="nav-link m text-white d-inline-block">Support</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container-2 bg-light">
+            <div class="px-4">
+                <div class="row gx-5">
+                    <div class="col">
+                        <div class="p-3 fs-4 mx-5">Payments</div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3 interns">Good Morning UI Interns</div>
+                    </div>
+                </div>
+            </div>
+            <div class="style">
+                <div class="row g-2">
+                    <div class="col-5 bg-white">
+                        <div class="p-2">TOTAL RECEIVE
+                            <div class="flex-container d-flex">
+                                <div class="p-1 font">84,254.58</div>
+                                <div class="p-2 mb-3">
+                                    <p class="text-primary">Pending</p>
+                                    <p class="text-black mb-2">15,000.00</p>
+                                    <p class="text-black-50">In Drafts</p>
+                                    <p class="text-black">1,000.00</p>
+                                </div>
+                            </div>
+                            <div class="alpha rounded">+10% since last month</div>
+                        </div>
+
+                    </div>
+                    <div class="col-4">
+                        <div class="pad">
+                            <div class="heading">Powered By QuickPay
+                                <div class="rounded dot-container text-end">Information</div>
+                            </div>
+                            <div class="b">
+                                <p class="para">QuickPay lets you receive payments on the fly.
+                                    Easily generate invoices that are print-ready, or simply
+                                    share payment link via SMS/E-mail to request payment.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-1 text-center my-4">
+                <div class="col gx-4">
+                    <div class="p-2 mx-5">
+                        <p class="fs-4">Invoices</p>
+                        <p class="text-black-50">Find your recent transaction below</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 mx-5">
+                        <button class="button border-0 rounded-5 bg-primary text-light p-1">+ NEW INVOICE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-1 p-3">
+                <div class="col d-flex spacing">
+                    <span class="span-icon">
+                        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                    </span>
+                    <input type="text" class="form-control ps-5 border-0 input" placeholder="Search Invoices" />
+                    <div class=" col-auto dropdown">
+                        <select class="border-0 p-2">
+                            <option>This Week</option>
+                            <option>1 Week</option>
+                            <option>2 Week</option>
+                            <option>3 Week</option>
+                            <option>4 Week</option>
+                            <option>5 Week</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="container manage-width">
+                <table class="table table-borderless align-items-center">
+                    <thead>
+                        <tr class="color">
+                            <th scope="col" class="text-black-50">Invoice Number</th>
+                            <th scope="col" class="text-black-50">Date</th>
+                            <th scope="col" class="text-black-50">Client</th>
+                            <th scope="col" class="text-black-50">Amount</th>
+                            <th scope="col" class="text-black-50">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-row bg-white rounded">
+                        <tr class="table-data">
+                            <th scope="row">
+                                <p class="my-1">#12344567</p>
+                            </th>
+                            <td>Jul 30, 2021</td>
+                            <td>Mr. Jaiswal</td>
+                            <td>23456</td>
+                            <td>
+                                <span class="badge rounded-pill">Pending</span>
+                            </td>
+                        </tr>
+                        <tr class="table-data">
+                            <th scope="row">
+                                <p class="my-1">#34567897</p>
+                            </th>
+                            <td>Jun 15, 2021</td>
+                            <td>Mr. Aggarwal</td>
+                            <td>677898</td>
+                            <td>
+                                <span class="badge rounded-pill">Pending</span>
+                            </td>
+                        </tr>
+                        <tr class="table-data">
+                            <th scope="row">
+                                <p class="my-1">#23345655</p>
+                            </th>
+                            <td>Aug 10, 2021</td>
+                            <td>Mr. Jindal</td>
+                            <td>10292764</td>
+                            <td>
+                                <span class="badge draft rounded-pill mx-1">Draft</span>
+                            </td>
+                        </tr>
+                        <tr class="table-data">
+                            <th scope="row">
+                                <p class="my-1">#23345669</p>
+                            </th>
+                            <td>Sept 10, 2021</td>
+                            <td>Mr. Mittle</td>
+                            <td>1029275</td>
+                            <td>
+                                <span class="badge badge-note rounded-pill">Paid</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
